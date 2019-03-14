@@ -1,6 +1,16 @@
 # <img src="./ee.png" />
 This Event Emitter Implementation is about 152B(Minified and Gizipped) and 158B(Minified).
 
+### `Installation`
+If using on `Node.js`
+```
+npm install ee
+```
+If using on `Browser`
+```
+<script></script>
+```
+
 ### `Usage`
 It provides the same interface as Node.js Event Emitters so two methods are defined `on(event,handler)` and `emit(event,...values)`
 
