@@ -1,8 +1,8 @@
 {
   "name": "conciseee",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Concise Event Emitter",
-  "main": "ee.js",
+  "main": "ee.min.js",
   "scripts": {
     "test": "node test.js"
   },
