@@ -1,4 +1,4 @@
-# <img src="./ee.png" />
+# <img src="https://github.com/archanpatkar/ee/blob/master/ee.png" />
 This Event Emitter Implementation is about 156B(Minified and Gizipped) and 165B(Minified).
 
 ### `Installation`
