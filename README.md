@@ -1,5 +1,5 @@
 # <img src="./ee.png" />
-This Event Emitter Implementation is about 152B(Minified and Gizipped) and 158B(Minified).
+This Event Emitter Implementation is about 156B(Minified and Gizipped) and 165B(Minified).
 
 ### `Installation`
 If using on `Node.js`
