@@ -1,4 +1,4 @@
-# <img src="https://github.com/archanpatkar/ee/blob/master/ee.png" />
+# <img src="https://docs.google.com/drawings/d/e/2PACX-1vSPq_udC6oTFuvUhLAGffrWMsAx_x3NcK9v9DupscmQhwEbjksaNNmNynVdnwSJw2IS05ZyCQV6d2lL/pub?w=372&h=236" />
 This Event Emitter Implementation is about 156B(Minified and Gizipped) and 165B(Minified).
 
 ### `Installation`
@@ -8,7 +8,7 @@ npm install conciseee
 ```
 If using on `Browser`
 ```
-<script></script>
+<script src="https://unpkg.com/conciseee"></script>
 ```
 
 ### `Usage`
