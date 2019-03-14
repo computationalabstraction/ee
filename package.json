@@ -1,17 +1,17 @@
 {
-  "name": "ee",
+  "name": "conciseee",
   "version": "1.0.0",
   "description": "Concise Event Emitter",
   "main": "ee.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/archanpatkar/ee.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Archan Patkar",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/archanpatkar/ee/issues"
   },
