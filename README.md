@@ -4,7 +4,7 @@ This Event Emitter Implementation is about 152B(Minified and Gizipped) and 158B(
 ### `Installation`
 If using on `Node.js`
 ```
-npm install ee
+npm install conciseee
 ```
 If using on `Browser`
 ```
