@@ -12,7 +12,7 @@ If using on `Browser`
 ```
 
 ### `Usage`
-It provides the same interface as Node.js Event Emitters so two methods are defined `on(event,handler)` and `emit(event,...values)`
+It provides the same interface as Node.js Event Emitters so there is a emitter factory and two methods are defined on the emitter instance `on(event,handler)` and `emit(event,...values)`
 
 ```javascript
 const ee = require("ee");
