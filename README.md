@@ -1,5 +1,5 @@
 # <img src="https://docs.google.com/drawings/d/e/2PACX-1vSPq_udC6oTFuvUhLAGffrWMsAx_x3NcK9v9DupscmQhwEbjksaNNmNynVdnwSJw2IS05ZyCQV6d2lL/pub?w=372&h=236" />
-A **powerful** but **concise** Event Emitter implementation which is about **320B**(Minified and Gzipped) follows the same **interface** and **semantics** of Node.js Event Emitters with some extra features such as *regex based event matching* and *universal handlers*
+A **powerful** but **concise** Event Emitter implementation which is about **306B**(Minified and Gzipped) follows the same **interface** and **semantics** of Node.js Event Emitters with some extra features such as *regex based event matching* and *universal handlers*
 
 ### `Installation`
 If using on `Node.js`
