@@ -1,6 +1,6 @@
 {
   "name": "conciseee",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Concise Event Emitter",
   "keywords": ["Event Emitter","Tiny","Small","Consice","Events","Event","Tiny Events","Small Events","Consice Events"],
   "main": "ee.min.js",
