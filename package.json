@@ -1,6 +1,6 @@
 {
   "name": "conciseee",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Concise (306B) Event Emitter with features like regex based event matching and universal handlers",
   "keywords": ["Event Emitter","Tiny","Small","Consice","Events","Event","Tiny Events","Small Events","Consice Events"],
   "main": "ee.min.js",
