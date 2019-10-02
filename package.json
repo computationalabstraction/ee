@@ -1,6 +1,6 @@
 {
   "name": "conciseee",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Concise (303B) Event Emitter with features like regex based event matching and universal handlers",
   "keywords": [
     "Event Emitter",
