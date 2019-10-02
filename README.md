@@ -12,7 +12,7 @@ If using on `Browser`
 ```
 `Optimized (GZipped)`
 ```
-<script src="https://unpkg.com/conciseee/ee.min.js.gz"><script/>
+<script src="https://unpkg.com/conciseee/dist/ee.min.js.gz"><script/>
 ```
 
 ### `Usage`
