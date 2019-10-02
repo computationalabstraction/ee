@@ -1,11 +1,22 @@
 {
   "name": "conciseee",
-  "version": "1.0.7",
-  "description": "Concise (306B) Event Emitter with features like regex based event matching and universal handlers",
-  "keywords": ["Event Emitter","Tiny","Small","Consice","Events","Event","Tiny Events","Small Events","Consice Events"],
+  "version": "1.0.8",
+  "description": "Concise (303B) Event Emitter with features like regex based event matching and universal handlers",
+  "keywords": [
+    "Event Emitter",
+    "Tiny",
+    "Small",
+    "Consice",
+    "Events",
+    "Event",
+    "Tiny Events",
+    "Small Events",
+    "Consice Events"
+  ],
   "main": "ee.min.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "jest",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +27,11 @@
   "bugs": {
     "url": "https://github.com/archanpatkar/ee/issues"
   },
-  "homepage": "https://github.com/archanpatkar/ee#readme"
+  "homepage": "https://ee.archan.io",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-preset-minify": "^0.5.1",
+    "jest": "^24.9.0"
+  }
 }
