@@ -1,6 +1,6 @@
 {
   "name": "conciseee",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Concise (303B) Event Emitter with features like regex based event matching and universal handlers",
   "keywords": [
     "Event Emitter",
@@ -13,7 +13,7 @@
     "Small Events",
     "Consice Events"
   ],
-  "main": "/dist/ee.min.js",
+  "main": "dist/ee.min.js",
   "scripts": {
     "test": "jest",
     "build": "node build.js"
