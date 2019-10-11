@@ -8,4 +8,4 @@ function ee()
         off(e,f){let o;e instanceof RegExp?regex.forEach(i=>e.toString()==i.p.toString()&&f==i.f?o=i:0)||o?delete regex[regex.indexOf(o)]:0:map[e]?map[e].forEach(i=>f==i?o=i:0)||o?delete map[e][map[e].indexOf(o)]:0:0;return this}
     };
 }
-if(typeof(window) === "undefined") module.exports = ee; 
+if(typeof(module) !== "undefined") module.exports = ee; 
