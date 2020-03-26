@@ -25,8 +25,21 @@ test('on method', () => {
     .emit("one1")
     .emit("one2")
     .emit("one3");
+    let p1 = new Promise(resolve => {
+        em1.on("async",resolve,500);
+    });
+    let p2 = new Promise(resolve => {
+        em1.on(/async/,resolve,true);
+    });
+    let gp = new Promise(resolve => {
+        em1.on("*",resolve,true);
+    });
+    em1.emit("async",true);
     expect(i).toBe(3);
-    expect(g).toBe(5);
+    expect(g).toBe(6);
+    expect(p1).resolves.toBe(true);
+    expect(p2).resolves.toBe(true);
+    expect(gp).resolves.toBe("async");
 });
 
 test('off method', () => {
@@ -51,9 +64,25 @@ test('off method', () => {
     .emit("one1")
     .emit("one2")
     .emit("one3");
+    let a = 0;
+    let f1;
+    let f2;
+    let p = new Promise(resolve => {
+        f1 = () => ++a;
+        f2 = () => ++a && resolve(true);
+        em1.on("async",f1,true);
+        em1.on(/async/,f2,true);
+    });
+    em1.emit("async");
     expect(i).toBe(3);
     em1.off(/one[1-9]/,iff).emit("one1");
     expect(i).toBe(3);
+    expect(p.then((v) => {
+        em1.off("async",f1);
+        em1.off(/async/,f2);
+        em1.emit("async");
+        return a;
+    })).resolves.toBe(2);
 });
 
 test("emit method",() => {
