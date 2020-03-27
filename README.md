@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/conciseee.svg)](https://badge.fury.io/js/conciseee) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Actions Status](https://github.com/archanpatkar/ee/workflows/Test-Build-Publish/badge.svg)](https://github.com/archanpatkar/ee/actions?workflow=Test-Build-Publish) [![Maintainability](https://api.codeclimate.com/v1/badges/9e8bef3b92ba52535e2b/maintainability)](https://codeclimate.com/github/archanpatkar/ee/maintainability)
 
-A **powerful** but **concise** Event Emitter implementation which is about **303B**(Minified and Gzipped) follows the same **interface** and **semantics** of Node.js Event Emitter with some extra features such as *chainability*, *regex based event matching* and *universal handlers*
+A **powerful** but **concise** Event Emitter implementation which is about **409B**(Minified and Gzipped) follows the same **interface** and **semantics** of Node.js Event Emitter with some extra features such as *async notification*, *custom schedulers*, *fluent interface*, *regex based event matching* and *universal handlers*
 
 ## Installation
 ### `Node.js`
